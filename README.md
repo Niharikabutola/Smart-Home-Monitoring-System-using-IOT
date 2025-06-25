@@ -3,6 +3,7 @@
 📡 IoT Sensor Monitoring with ESP8266, ThingSpeak & Web Interface
 This project reads distance, temperature, humidity, and light intensity using an HC-SR04 Ultrasonic Sensor, DHT11, and LDR, then sends the data to ThingSpeak for visualization. It also serves data on a local web interface via the ESP8266.
 
+
 📦 Components Used
 
 1.ESP8266 NodeMCU	Microcontroller with Wi-Fi
@@ -71,6 +72,8 @@ Tools → Board → NodeMCU 1.0 (ESP-12E Module)
 
 Tools → Port → Select your USB port
 
+
+
 🌐 ThingSpeak Setup
 
 Go to https://thingspeak.com
@@ -103,6 +106,8 @@ const char* writeAPIKey = "YOUR_WRITE_API_KEY";
 
 
 
+
+
 📱 Blynk IoT App
 
 You can also use the Blynk IoT App instead of ThingSpeak.
@@ -127,6 +132,9 @@ Blynk.virtualWrite(V1, temperature);
 ⚠️ Use Blynk.begin(auth, ssid, pass); instead of manual Wi-Fi connection.
 
 
+
+
+
 🚀 Uploading Code
 
 Paste the complete code in Arduino IDE
@@ -142,6 +150,9 @@ Click ✅ Verify
 Click ➡ Upload
 
 
+
+
+
 🖥️ Accessing Web Interface
 
 Once connected to Wi-Fi, open Serial Monitor (baud 115200)
@@ -151,6 +162,9 @@ It will display the IP address (e.g., 192.168.1.8)
 Open browser and enter that IP
 
 You’ll see live sensor data in HTML format
+
+
+
 
 
 🛠️ Use Case
@@ -164,6 +178,8 @@ Garbage Bin Level Detection
 Agriculture: Soil light, climate, and distance from water sources
 
 Smart Homes: Automated light adjustment, environmental tracking
+
+
 
 
 📝 Example Output
