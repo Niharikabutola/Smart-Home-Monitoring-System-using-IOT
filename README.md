@@ -124,6 +124,7 @@ Blynk.virtualWrite(V0, distance);
 
 Blynk.virtualWrite(V1, temperature);
 ...
+
 ⚠️ Use Blynk.begin(auth, ssid, pass); instead of manual Wi-Fi connection.
 
 
@@ -171,13 +172,21 @@ Smart Homes: Automated light adjustment, environmental tracking
 Serial Monitor:
 
 Connecting to Wi-Fi...
+
 Connected to Wi-Fi!
+
 Distance: 43 cm
+
 Temperature: 25.00 °C
+
 Humidity: 60.00 %
+
 Light Level: 790
+
 Data sent to ThingSpeak successfully!
+
 ThingSpeak: Visit your channel and check the live updating graphs.
+
 
 📂 Project Directory Structure
 
