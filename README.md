@@ -221,8 +221,3 @@ Use a resistor voltage divider for LDR if values are off
 
 
 
-
-
-
-No file chosenNo file chosen
-ChatGPT can make mistakes. Check important info. See Cookie Preferences.
