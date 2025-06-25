@@ -4,7 +4,6 @@
 This project reads distance, temperature, humidity, and light intensity using an HC-SR04 Ultrasonic Sensor, DHT11, and LDR, then sends the data to ThingSpeak for visualization. It also serves data on a local web interface via the ESP8266.
 
 📦 Components Used
-Component	Description
 
 1.ESP8266 NodeMCU	Microcontroller with Wi-Fi
 
