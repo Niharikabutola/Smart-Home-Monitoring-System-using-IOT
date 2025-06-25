@@ -5,6 +5,7 @@ This project reads distance, temperature, humidity, and light intensity using an
 
 📦 Components Used
 Component	Description
+
 1.ESP8266 NodeMCU	Microcontroller with Wi-Fi
 2.HC-SR04	Ultrasonic distance sensor
 3.DHT11	Temperature and Humidity sensor
@@ -154,9 +155,11 @@ Data sent to ThingSpeak successfully!
 ThingSpeak: Visit your channel and check the live updating graphs.
 
 📂 Project Directory Structure
+
 ESP8266-IoT-Project/
 ├── main.ino               # Arduino Sketch
 ├── README.md              # This file
+
 💡 Tips
 Wait 15 seconds between writes to ThingSpeak (free plan limit)
 
